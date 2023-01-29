@@ -9,6 +9,8 @@ import Login from './pages/Login';
 import Landing from './pages/Landing';
 import Register from './pages/Register';
 import Contact from './pages/Contact';
+import Location from './pages/Location';
+import Employee from './pages/Employee';
 
 const App = (props) => {
   return (
@@ -20,6 +22,8 @@ const App = (props) => {
           <Route path='/login' element={<Login />} />
           <Route path='/contact' element={<Contact />} />
           <Route path='/register' element={<Register />} />
+          <Route path='/location' element={<Location/>} />
+          <Route path='/employee' element={<Employee/>} />
         </Routes>
       </Router>
     </>
