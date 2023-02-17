@@ -47,14 +47,13 @@ const Login = (props) => {
 
   return (
     <>
-      <p>Login page</p>
       <form onSubmit={loginButtonHandler} className='flex flex-col'>
         <label htmlFor='email'>
-          email
+          Email
         </label>
-        <input type='email' name='email' onChange={changeHandler} />
+        <input className='rounded-md border-gray-600'type='email' name='email' onChange={changeHandler} />
         <label htmlFor='password'>
-          password
+          Password
         </label>
         <input type='password' name='password' onChange={changeHandler}  />
         <label htmlFor='password'>

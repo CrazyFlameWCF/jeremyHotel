@@ -1,46 +1,38 @@
+// import { TakeYourStayFurtherData } from "./Datas";
+import TakeYourStayFurther from "./TakeYourStayFurther";
+import GetTheMostFromYourStay from "./GetTheMostFromYourStay";
+import JoinHiltonHonors from "./JoinHiltonHonors";
+import YourWellbeing from "./YourWellbeing";
+import ExperienceAStay from "./ExperienceAStay";
+import TheHeart from "./TheHeart";
+import OurBrands from "./OurBrands";
+import Footer from "../components/Footer";
+
 const Landing = (props) => {
+
+
   return (
     <>
-    <p>Landing Page</p>
     <div>
       <body>
-        <div>
-          <p>Hook</p>
-        </div>
+            
+        <JoinHiltonHonors />    
+            
+        <GetTheMostFromYourStay/>
 
-        <div>
-          <p>box2</p>
-        </div>
+        <TakeYourStayFurther />
 
-        <div>
-          <p>box3</p>
-        </div>
+        <YourWellbeing />
 
-        <div>
-          <p>box4</p>
-        </div>
-        
-        <div>
-          <p>box5</p>
-        </div>
+        <ExperienceAStay />
 
-        <div>
-          <p>box6</p>
-        </div>
+        <TheHeart />
 
-        <div>
-          <p>box7</p>
-        </div>
+        <OurBrands />
 
-        </body>
-      </div>
-    <footer>
-      <p>How can we help?</p>
-      <br></br>
-      <p className ='font-bold text-blue-700'>+1-800-HILTONS</p>
-      <p>Call us, it's toll-free</p>
-    </footer>
-    
+      </body>
+    <Footer />
+    </div>
     </>
   );
 }

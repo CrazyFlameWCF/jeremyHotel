@@ -11,6 +11,95 @@ module.exports = {
       xl: '1280px',
       '2xl': '1536px',
     },
+    extend: {
+      fontFamily: {
+        'Kaushan': ['Kaushan Script', 'cursive'],
+      },
+      backgroundImage: {
+        'carousel': "url('https://www.hilton.com/im/en/NoHotel/17969724/hilton.com-carousel-jan.jpg?impolicy=crop&cw=4500&ch=2344&gravity=NorthWest&xposition=0&yposition=327&rw=2048&rh=1068')",
+
+        'take1': "url('https://www.hilton.com/im/en/MBJRHHF/16722849/2021-lifestyle-shoot-at-hilton-rose-hall-resort-spa-an-all-inclusive-resort.jpg?impolicy=crop&cw=5000&ch=3259&gravity=NorthWest&xposition=0&yposition=36&rw=1536&rh=1002')",
+
+        'take2': "url('https://www.hilton.com/im/en/SJDLCHH/3254503/family-pool.jpg?impolicy=crop&cw=5000&ch=3259&gravity=NorthWest&xposition=0&yposition=36&rw=1536&rh=1002')",
+        
+        'take3': "url('https://www.hilton.com/im/en/NoHotel/15196711/shutterstock-269455079.jpg?impolicy=crop&cw=5000&ch=3259&gravity=NorthWest&xposition=0&yposition=36&rw=1536&rh=1002')",
+
+        'take4': "url('https://www.hilton.com/im/en/NoHotel/13984175/cheers-5000x3333.jpg?impolicy=crop&cw=5000&ch=3259&gravity=NorthWest&xposition=0&yposition=36&rw=1536&rh=1002')",
+
+        'take5': "url('https://www.hilton.com/im/en/NoHotel/16156655/shutterstock-673616299.jpg?impolicy=crop&cw=5000&ch=3259&gravity=NorthWest&xposition=0&yposition=36&rw=1536&rh=1002')",
+
+        'take6': "url('https://www.hilton.com/im/en/NoHotel/14530273/f-por-157-heroimage-crop3-2.jpg?impolicy=crop&cw=1500&ch=977&gravity=NorthWest&xposition=0&yposition=11&rw=1536&rh=1002')",
+
+        'take7': "url('https://www.hilton.com/im/en/MultiHotel/7637864/african-american-father-and-daughter-having-breakfast.jpg?impolicy=crop&cw=5000&ch=3259&gravity=NorthWest&xposition=0&yposition=37&rw=1536&rh=1002')",
+
+        'loca1': "url('https://www.hilton.com/im/en/NoHotel/10923291/11833-arm-q4-destination-imagery-boston.jpg?impolicy=crop&cw=1533&ch=1000&gravity=NorthWest&xposition=33&yposition=0&rw=1536&rh=1002')",
+
+        'loca2': "url('https://www.hilton.com/im/en/BNADWHW/13965150/hwsbnadwhwbroadway.jpg?impolicy=crop&cw=5000&ch=3259&gravity=NorthWest&xposition=0&yposition=36&rw=1536&rh=1002')",
+
+        'loca3': "url('https://www.hilton.com/im/en/NoHotel/15502580/shutterstock-654240889.jpg?impolicy=crop&cw=5000&ch=3259&gravity=NorthWest&xposition=0&yposition=38&rw=1536&rh=1002')",
+
+        'well1': "url('https://www.hilton.com/im/en/MBJRHHF/16722880/rose-hall-family-on-beach.jpg?impolicy=crop&cw=5000&ch=3333&gravity=NorthWest&xposition=0&yposition=-1&rw=640&rh=426')",
+
+        'well2': "url('https://www.hilton.com/im/en/SJNHIHH/2568702/tennislifestyle.jpg?impolicy=crop&cw=4500&ch=3000&gravity=NorthWest&xposition=0&yposition=0&rw=640&rh=426')",
+
+        'well3': "url('https://www.hilton.com/im/en/WASUAUA/15154508/rooftop-drinks.jpg?impolicy=crop&cw=5000&ch=3333&gravity=NorthWest&xposition=0&yposition=-1&rw=640&rh=426')",
+
+        'well4': "url('https://www.hilton.com/im/en/ISTHITW/10971284/hilton-istanbul-model-15.jpg?impolicy=crop&cw=5000&ch=3333&gravity=NorthWest&xposition=0&yposition=-1&rw=640&rh=426')",
+
+        'edmonton': "url('https://www.ualberta.ca/wirth-institute/media-library/about-us/edmontonskyline.jpg')",
+
+        'doubletree': "url('https://www.hilton.com/im/en/YEARSDT/10885505/years-exterior.jpg?impolicy=crop&cw=3878&ch=1627&gravity=NorthWest&xposition=0&yposition=686&rw=1470&rh=617')",
+
+        'garden': "url('https://www.hilton.com/im/en/YEGWEGI/411163/yegwegi-0000720280.tif?impolicy=crop&cw=5616&ch=2357&gravity=NorthWest&xposition=0&yposition=693&rw=1470&rh=617')",
+
+        'doubletree2': "url('https://www.hilton.com/im/en/YEGNMDT/2242318/yegnmdt-exterior.jpg?impolicy=crop&cw=3174&ch=1335&gravity=NorthWest&xposition=0&yposition=1301&rw=1470&rh=617')",
+
+        'home2': "url('https://www.hilton.com/im/en/YEASEHT/8541200/exterior-entrance.jpg?impolicy=crop&cw=4600&ch=1931&gravity=NorthWest&xposition=0&yposition=567&rw=1470&rh=617')",
+
+        'hampton': "url('https://www.hilton.com/im/en/YEGWTHX/14559581/dsc-ext-day.jpg?impolicy=crop&cw=5000&ch=2098&gravity=NorthWest&xposition=0&yposition=617&rw=1470&rh=617')",
+
+        'icon1' : "url('https://www.hilton.com/modules/assets/svgs/logos/brand/WA.svg')",
+
+        'icon2' : "url('https://www.hilton.com/modules/assets/svgs/logos/brand/OL.svg')",
+
+        'icon3' : "url('https://www.hilton.com/modules/assets/svgs/logos/brand/CH.svg')",
+
+        'icon4' : "url('https://www.hilton.com/modules/assets/svgs/logos/brand/PY.svg')",
+
+        'icon5' : "url('https://www.hilton.com/modules/assets/svgs/logos/brand/SA.svg')",
+
+        'icon6' : "url('https://www.hilton.com/modules/assets/svgs/logos/brand/HI.svg')",
+
+        'icon7' : "url('https://www.hilton.com/modules/assets/svgs/logos/brand/QQ.svg')",
+
+        'icon8' : "url('https://www.hilton.com/modules/assets/svgs/logos/brand/DT.svg')",
+
+        'icon9' : "url('https://www.hilton.com/modules/assets/svgs/logos/brand/UP.svg')",
+
+        'icon10' : "url('https://www.hilton.com/modules/assets/svgs/logos/brand/ES.svg')",
+
+        'icon11' : "url('https://www.hilton.com/modules/assets/svgs/logos/brand/PO.svg')",
+
+        'icon12' : "url('https://www.hilton.com/modules/assets/svgs/logos/brand/UA.svg')",
+
+        'icon13' : "url('https://www.hilton.com/modules/assets/svgs/logos/brand/GI.svg')",
+
+        'icon14' : "url('https://www.hilton.com/modules/assets/svgs/logos/brand/HP.svg')",
+
+        'icon15' : "url('https://www.hilton.com/modules/assets/svgs/logos/brand/RU.svg')",
+
+        'icon16' : "url('https://www.hilton.com/modules/assets/svgs/logos/brand/HW.svg')",
+
+        'icon17' : "url('https://www.hilton.com/modules/assets/svgs/logos/brand/HT.svg')",
+        
+        'icon18' : "url('https://www.hilton.com/modules/assets/svgs/logos/brand/GV.svg')",
+
+
+
+
+      }
+
+    },
     supports: {},
     colors: ({ colors }) => ({
       inherit: colors.inherit,

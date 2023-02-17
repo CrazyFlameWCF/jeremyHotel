@@ -41,9 +41,9 @@ const Register = (props) => {
         const response = await axios.post(`${process.env.REACT_APP_SERVER_URL}/auth/register`, data)
 
         if(!!response.data.success) {
-          sessionStorage.setItem('authToken', response.data.token)
-          sessionStorage.setItem('userId', response.data.user._id)
-          navigate('/')
+          sessionStorage.setItem('authToken', response.data.token)//????????
+          sessionStorage.setItem('userId', response.data.user._id)//????????
+          navigate('/')//?????????
         }
 
         console.log(response)
