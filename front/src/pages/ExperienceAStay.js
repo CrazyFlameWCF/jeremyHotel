@@ -20,7 +20,7 @@ const ExperienceAStay = (props) => {
         <p className="font-semibold pl-5">Stay warm in our hottest destinations</p>
         <div className="flex flex-row flex-wrap px-5 m-1">
 
-          {ExpData.map(data =>
+          {ExpData.map((data, index) =>
             <div className={dataId(data.locaid)}>
               <h3 className="text-2xl">{data.text}</h3>
             </div>

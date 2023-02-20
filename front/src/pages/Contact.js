@@ -20,7 +20,7 @@ const Contact = (props) => {
     status: 'new',
   });
 
-  let { name, email, checkindate, checkoutdate, phone, location, adult, kid, roomtype, status  } = submitForm;
+  let { name, email, checkindate, checkoutdate, phone, location, adult, kid, roomtype, status } = submitForm;
 
   const settingState = (e, string) =>{
     setIsSectionOpen(string)

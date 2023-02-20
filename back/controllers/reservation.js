@@ -52,16 +52,16 @@ exports.viewAll = async (req, res) => {
 }
 
 exports.confirmReservation = async (req, res) => {
-  console.log(req.params.id)
+  console.log(req.params.id, req.body)
 
-  // let id = req.params.id
-  
+  let newStatus = req.body.status
   try {
-    let reservations = await Reservation.find({});
-      res.json({
-        success: true,
-        reservations
-      })
+    let reservation = await Reservation.findByIdAndUpdate(req.params.id, {status: newStatus});
+    reservation.save();
+    res.json({
+      success: true,
+      reservation
+    })
   } catch (e) {
     console.log(e)
   }

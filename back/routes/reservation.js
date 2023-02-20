@@ -1,12 +1,12 @@
 const express = require('express');
 const router = express.Router();
 
-const { reservation, viewAll, confimReservation } = require('../controllers/reservation');
+const { reservation, viewAll, confirmReservation } = require('../controllers/reservation');
 
 
 router.route('/register').post(reservation);
 router.route('/viewall').get(viewAll);
-router.route('/confirmReservation/:id').get(confimReservation);
+router.route('/confirmReservation/:id').put(confirmReservation);
 
 
 module.exports = router;

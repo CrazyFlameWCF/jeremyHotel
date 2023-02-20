@@ -24,7 +24,7 @@ const Header = (props) => {
         
           <ul className="flex flex-row pt-4 w-1/2">
             {/* <li className="font-bold px-2 py-1"><a href='/register' className='inline-flex items-center'>Join</a></li> */}
-            <li className="font-bold px-2 py-1"><a href='/login' className='inline-flex items-center'>Sign In <MdPersonPin /></a></li>
+            <li className="font-bold px-2 py-1 flex flex-row items-cente border-b border-b-gray-200"><a href='/login' className='inline-flex items-center'>Sign In <MdPersonPin /></a></li>
             {/* <li className="font-bold px-2 py-1"><a href='/employee' className='inline-flex items-center'>Employee</a></li> */}
             
           </ul>

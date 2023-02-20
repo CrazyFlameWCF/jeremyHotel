@@ -1,4 +1,6 @@
+import React from 'react';
 import { IconData } from "./Data/IconData";
+import { GoChevronLeft, GoChevronRight } from 'react-icons/go';
 
 const dataId = (iconid) => {
   if (iconid === 1) {
@@ -64,16 +66,18 @@ const OurBrands = (props) => {
     <div className="bg-gray-300">
       <p className="font-bold text-blue-800 text-xl pb-2 pl-5 pt-4">Our Brands</p>
       <div className="flex flex-row">
-        <div>
-          <p>Left</p>
+        <div className="hover:bg-white">
+          <GoChevronLeft className="h-8 w-8 pl-4"/>
+
         </div>
+        
       <div className="flex flex-row overflow-x-auto">
         {IconData.map((data =>
           <div className={dataId(data.iconid)}>
           </div>))}
       </div>
         <div>
-          <p>Right</p>
+          <GoChevronRight className="h-8 w-8 pr-4 hover:bg-white" />
         </div>
       </div>
 
