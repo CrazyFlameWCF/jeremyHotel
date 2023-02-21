@@ -73,7 +73,9 @@ const Location = (props) => {
                 onCloseClick={(e) => {setIsClicked(false)}}
                 >
                   <div>
-                    <h3>{clickedHotel.text}</h3>
+                    <h3 className="font-bold">{clickedHotel.text}</h3>
+                    <h3>Phone: {clickedHotel.phone}</h3>
+                    
                   </div>
                 </InfoWindowF>
                 :

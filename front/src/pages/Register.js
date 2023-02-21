@@ -60,37 +60,35 @@ const Register = (props) => {
   },[])
 
   return (
-    <>
-      <p className='text-2xl'>Register page</p>
+    <section className="flex flex-col items-center p-10 ">
+      <div className="pt-4 mb-4 border-2 border-gray-300 px-36 py-24 ">
+
+      <p className='text-2xl text-blue-800 font-bold pb-4 pt-8'>Register Page</p>
       <form onSubmit={registerButtonHandler} className='flex flex-col'>
-        <label htmlFor='email'>
-          email
+        <label htmlFor='email' className='mb-2 font-bold'>
+          email:
         </label>
-        <input type='email' name='email' onChange={changeHandler} />
-        <label htmlFor='password'>
-          password
+        <input type='email' name='email' onChange={changeHandler} className='border px-4 py-2 border-gray-200 rounded-md mb-2'/>
+        <label htmlFor='password' className='mb-2 font-bold'>
+          password :
         </label>
-        <input type='password' name='password' onChange={changeHandler}  />
-        <label htmlFor='username'>
-          username
+        <input type='password' name='password' onChange={changeHandler} className='border px-4 py-2 border-gray-200 rounded-md mb-2'/>
+        <label htmlFor='username' className='mb-2 font-bold'>
+          username :
         </label>
-        <input type='text' name='username' onChange={changeHandler}  />
-        <label htmlFor='address'>
-          address
+        <input type='text' name='username' onChange={changeHandler} className='border px-4 py-2 border-gray-200 rounded-md mb-2' />
+        <label htmlFor='address' className='mb-2 font-bold'>
+          address :
         </label>
-        <input type='text' name='address' onChange={changeHandler}  />
-        <label htmlFor='contact'>
-          contact
+        <input type='text' name='address' onChange={changeHandler} className='border px-4 py-2 border-gray-200 rounded-md mb-2' />
+        <label htmlFor='contact' className='mb-2 font-bold'>
+          contact :
         </label>
-        <input type='text' name='contact' onChange={changeHandler}  />
-        <button type='submit'>Register</button>
+        <input type='text' name='contact' onChange={changeHandler} className='border px-4 py-2 border-gray-200 rounded-md mb-2' />
+        <button type='submit' className="truncate px-4 py-2 w-full bg-blue-800 font-bold text-white rounded-md hover:bg-blue-900 mt-4">Register</button>
       </form>
-      <p>{email}</p>
-      <p>{password}</p>
-      <p>{username}</p>
-      <p>{address}</p>
-      <p>{contact}</p>
-    </>
+      </div>
+    </section>
   );
-}
+  }
 export default Register;

@@ -1,7 +1,7 @@
 const sendEmail = require('../utils/sendEmail');
 
 exports.testEmail = async (req, res) => {
-  // console.log(req.body)
+  console.log(req.body)
   let { email, message, phone } = req.body
   
   const preMessage = `

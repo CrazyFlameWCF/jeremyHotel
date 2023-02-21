@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from "react-router-dom";
-import { useLocation } from "react-router-dom";
+import { useLocation, useState } from "react-router-dom";
 import axios from 'axios';
 
 const Confirmation = (props) => {
@@ -19,7 +19,10 @@ const Confirmation = (props) => {
     //   name: submitForm.name,
     //   phone: submitForm.phone,
     //   email: submitForm.email,
-    //   location: submitForm.location
+    //   location: submitForm.location,
+    //   checkindate: submitForm.checkindate,
+    //   checkoutdate: submitForm.checkoutdate,
+    //   roomtype: submitForm.roomtype,
     // }
   
     // send formSubmit to backEnd
@@ -36,8 +39,11 @@ const Confirmation = (props) => {
   
   return (
     <>
-      <p>Confirmation</p>
-      <div className="w-full h-36">
+    <div className="border-2 rounded-md w-2/3 border-gray-200 px-8 py-10 flex flex-col flex-wrap justify-center items-center">
+    <div className="pb-3">
+        <img src="https://www.hilton.com/modules/assets/svgs/logos/shop/WW.svg" className='p-2' />
+      </div>
+      
         <p className='font-bold'>Detail of Reservation</p>
         <p className='font-bold text-blue-700'>Location : </p>
         <p>{submitForm.location}</p>
@@ -58,7 +64,7 @@ const Confirmation = (props) => {
         <p className='font-bold text-blue-700'>Type of Rooms : </p>
         <p>{submitForm.roomtype}</p>
         
-        <div className="flex flex-row">
+        <div className="flex flex-row pt-4">
           <div type='button' className="flex w-48 h-6 bg-blue-700 font-bold text-white rounded-md hover:bg-blue-200 hover:text-blue-600 justify-center items-center">
             <Link to="/contact" state={submitForm}>Back</Link>
           </div>

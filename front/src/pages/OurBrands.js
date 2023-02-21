@@ -66,8 +66,8 @@ const OurBrands = (props) => {
     <div className="bg-gray-300">
       <p className="font-bold text-blue-800 text-xl pb-2 pl-5 pt-4">Our Brands</p>
       <div className="flex flex-row">
-        <div className="hover:bg-white">
-          <GoChevronLeft className="h-8 w-8 pl-4"/>
+        <div className="hover:bg-gray-800">
+          <GoChevronLeft className="h-8 w-8 pl-2"/>
 
         </div>
         
@@ -77,7 +77,7 @@ const OurBrands = (props) => {
           </div>))}
       </div>
         <div>
-          <GoChevronRight className="h-8 w-8 pr-4 hover:bg-white" />
+          <GoChevronRight className="h-8 w-8 pr-2 hover:bg-gray-800" />
         </div>
       </div>
 
